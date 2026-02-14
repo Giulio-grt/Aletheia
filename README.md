@@ -15,11 +15,21 @@ Aletheia helps people cut through misinformation by fact-checking claims and syn
 
 ## The Problem
 
-- People consume news primarily through social media (TikTok, Instagram, Twitter)
-- Viral claims spread before fact-checkers can respond
+- People consume news primarily through social media (TikTok, Instagram, Twitter etc...)
 - Verifying information across multiple sources is time-consuming
 - Traditional fact-checking is too slow for real-time misinformation
 - Generic AI tools can hallucinate on very recent news and will always have a bias toward their training data.
+
+<p align="center">
+  <img alt="EU disinformation exposure by age group" src="assets/EU-disinformation.png" width="420">
+</p>
+
+<p align="center">
+  <sub>Share of EU citizens reporting exposure to fake news at least occasionally in the past 7 days</sub>
+</p>
+<p align="center">
+  <sub>Source: Social Media Survey 2025 | European Union Survey</sub>
+</p>
 
 ---
 
@@ -43,17 +53,6 @@ Aletheia provides three ways to verify information:
 - Synthesized from 50+ credible outlets
 - Customizable by topic and interest
 - Consume news the way you want it 
-
----
-
-## How It Works
-
-1. **Claim submitted** → User sends text, article, or video
-2. **Source analysis** → AI identifies and retrieves relevant articles from credible outlets
-3. **Multi-source synthesis** → Cross-references information, identifies consensus and conflicts
-4. **Verification + context** → Provides verdict with sources, context, and confidence score
-5. **Visual insights** → Shows entity relationships, timelines, and data where relevant
-
 ---
 
 ## What Makes It Different
@@ -62,30 +61,13 @@ Aletheia provides three ways to verify information:
 
 **vs. traditional AI models:** News-specific, grounded purely in credible sources, no hallucination
 
-**vs. Manual fact-checkers :** Real-time, scalable, covers more topics
+**vs. Manual fact-checkers :** Real-time and scalable
 
 **Key differentiators:**
 - Grounded exclusively in credible journalistic sources
 - Combines qualitative (text analysis) + quantitative (data verification)
 - Multiple surfaces: quick mobile checks + deep desktop research
 - Transparent sourcing (always shows where information comes from)
-
----
-
-## Current Status
-
-**MVP built** (December 2025 - January 2026)
-- Browser extension (Chrome)
-- Newsletter system
-- AI synthesis engine (multi-source analysis)
-- Mobile app foundation
-
-**Next steps:**
-- Beta launch (April 2026)
-- User testing with 100-200 people
-- Iterate based on feedback
-- Add entity relationship mapping
-- Expand data sources (economic, health, climate)
 
 ---
 
@@ -111,15 +93,6 @@ Aletheia aims to restore trust in information by making verification fast, trans
 
 ---
 
-## Philosophy
-
-**Speed + Quality:** Verification should be instant
-**Transparency:** Always show sources, never hide reasoning  
-**Accessibility:** Work where people consume news (mobile, social, browser)  
-**No black boxes:** Users should understand *why* something is true or false
-
----
-
 ## Roadmap
 
 ### Phase 1: Core Verification (Current)
@@ -139,14 +112,7 @@ Aletheia aims to restore trust in information by making verification fast, trans
 
 ---
 
-## Contact
-
-Built by Giulio Garotti  
-- Email: giulio.garotti@epfl.ch
-
----
-
-**Note:** This is an early-stage project. The code is not yet public as we're validating the concept and preparing for beta launch.
+**Note:** This is an early-stage project. The code is not public as we're validating the concept and preparing for beta launch.
 
 ---
 
@@ -155,4 +121,3 @@ Built by Giulio Garotti
 TBD - Currently private during development
 
 ---
-
