@@ -71,18 +71,6 @@ Aletheia provides three ways to verify information:
 
 ---
 
-## Why This Matters
-
-Misinformation isn't just annoying—it has real consequences:
-- Public health (vaccine misinformation)
-- Democracy (election fraud claims)
-- Markets (financial misinformation)
-- Science (climate denial)
-
-Aletheia aims to restore trust in information by making verification fast, transparent, and accessible.
-
----
-
 ## Tech Stack
 
 **Backend:** Python, FastAPI  
