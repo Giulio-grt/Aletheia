@@ -9,103 +9,54 @@
 
 ## What is Aletheia?
 
-Aletheia helps people cut through misinformation by fact-checking claims and synthesizing news from multiple credible sources. In an age where AI can generate convincing fake content and misinformation spreads faster than truth, Aletheia provides a way to quickly verify what you see online.
+Aletheia is an **automated financial newsroom for wealth managers**. Several times a
+day it reads the market news, discards the noise, groups what remains by the
+underlying event, and matches it against every position in a client portfolio.
+
+The output: what happened, why it matters for *this* book, and what to watch next,
+with every claim traced back to its sources.
 
 ---
 
 ## The Problem
 
-- People consume news primarily through social media (TikTok, Instagram, Twitter etc...)
-- Verifying information across multiple sources is time-consuming
-- Traditional fact-checking is too slow for real-time misinformation
-- Generic AI tools can hallucinate on very recent news and will always have a bias toward their training data.
+Advisors and portfolio managers start every day the same way: dozens of tabs,
+overlapping headlines, and no fast answer to the only question that matters. *Does
+any of this move my positions?*
+
+- News volume vastly exceeds what one person can read before the open
+- The same event arrives ten times from ten outlets, in ten shapes
+- Connecting a macro headline to a specific holding is manual work, repeated daily
+- Generic AI assistants are unreliable on recent news and can't see the portfolio
+- Client-facing commentary, from monthly reports to position notes, is still written by hand
+
+---
+
+## What Aletheia Does
+
+- **Morning Brief:** the day's market events, ranked and organised by region, each one sourced
+- **Position Impact:** one clear read per holding, built from the day's events and a fresh, position-specific search
+- **Weekly Brief:** related events chained across days into stories, and stories grouped into the bigger picture
+- **Reports:** position one-pagers on demand and an automatic monthly portfolio brief, white-labelled for the advisor's firm
+
+Available in English & German.
+
+---
+
+<br>
 
 <p align="center">
-  <img alt="EU disinformation exposure by age group" src="assets/EU-disinformation.png" width="420">
+  <a href="https://aletheia-ai.ch">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/learn-more-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="assets/learn-more-light.svg">
+      <img alt="Learn more at aletheia-ai.ch" src="assets/learn-more-light.svg" width="280">
+    </picture>
+  </a>
 </p>
+
+<br>
 
 <p align="center">
-  <sub>Share of EU citizens reporting exposure to fake news at least occasionally in the past 7 days</sub>
+  <sub>The application code is private. This repository holds the brand assets.</sub>
 </p>
-<p align="center">
-  <sub>Source: Social Media Survey 2025 | European Union Survey</sub>
-</p>
-
----
-
-## The Solution
-
-Aletheia provides three ways to verify information:
-
-### 1. **Quick Fact-Check (Mobile App)**
-- Send a TikTok/Instagram link, viral tweet or claim
-- Get instant verification with sources 
-- See if it's true, false, with added context
-
-### 2. **Deep Analysis (Browser Extension)**
-- Research complex topics with multi-source synthesis
-- Entity relationship mapping (who's involved, how they're connected)
-- Timeline views of how stories developed
-- Qualitative analysis + quantitative data
-
-### 3. **Curated Newsletter**
-- Weekly digest of verified news
-- Synthesized from 50+ credible outlets
-- Customizable by topic and interest
-- Consume news the way you want it 
----
-
-## What Makes It Different
-
-**vs. Ground News:** We synthesize different perspective from all over the world from all over the political spectrum. Helping you make your own opinion on the matter.
-
-**vs. traditional AI models:** News-specific, grounded purely in credible sources, no hallucination
-
-**vs. Manual fact-checkers :** Real-time and scalable
-
-**Key differentiators:**
-- Grounded exclusively in credible journalistic sources
-- Combines qualitative (text analysis) + quantitative (data verification)
-- Multiple surfaces: quick mobile checks + deep desktop research
-- Transparent sourcing (always shows where information comes from)
-
----
-
-## Tech Stack
-
-**Backend:** Python, FastAPI  
-**Frontend:** React, TypeScript  
-**AI/ML:** State of the art tuned LLM 
-**Data:** PostgreSQL, vector DB for semantic search  
-**Infrastructure:** Self-hosted (NAS + cloud hybrid)
-
----
-
-## Roadmap
-
-### Phase 1: Core Verification (Current)
-- Multi-source news synthesis
-- Basic fact-checking
-- Browser extension + newsletter
-
-### Phase 2: Deep Analysis (April-June 2026)
-- Entity relationship mapping
-- Timeline visualization
-- Quantitative data integration (economic, health, climate)
-
-### Phase 3: Scale (Post-Beta)
-- Mobile app refinement
-- B2B features (journalist tools, team workspaces)
-- API for third-party integrations
-
----
-
-**Note:** This is an early-stage project. The code is not public as we're validating the concept and preparing for beta launch.
-
----
-
-## License
-
-TBD - Currently private during development
-
----

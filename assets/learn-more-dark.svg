@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="52" viewBox="0 0 280 52" role="img" aria-label="Learn more at aletheia-ai.ch">
+  <rect x="0.5" y="0.5" width="279" height="51" rx="25.5" fill="#FFFFFF"/>
+  <text x="140" y="32"
+        text-anchor="middle"
+        font-family="Inter, 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif"
+        font-size="16"
+        letter-spacing="0.2"
+        fill="#0D0D0D">Learn more at <tspan font-weight="600">aletheia-ai.ch</tspan> &#8594;</text>
+</svg>
